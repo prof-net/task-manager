@@ -1,0 +1,29 @@
+@import "./../../App";
+
+.main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-flow: column;
+  padding-left: 20%;
+
+  .title {
+    margin-top: -70px;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 147px;
+
+    .text {
+      margin-left: 10px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      color: $color1;
+    }
+  }
+}

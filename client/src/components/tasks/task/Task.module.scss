@@ -1,0 +1,45 @@
+@import "./../../../App";
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  width: 100%;
+  border-bottom: 1px solid $color1;
+
+  input {
+    display: none;
+  }
+
+  .userCheckBox {
+    cursor: pointer;
+    display: block;
+    width: 19px;
+    height: 19px;
+    background: #00c1eb;
+    border-radius: 100%;
+  }
+
+  input:checked + .userCheckBox {
+    background: #05eb00;
+  }
+
+  .title {
+    width: 149px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: $color1;
+  }
+
+  .delete {
+    cursor: pointer;
+    outline: none;
+    display: block;
+    border: none;
+    background: none;
+  }
+}
